@@ -11,10 +11,11 @@ git config --global core.quotepath false
 sudo apt install zsh -y
 
 # Kitty terminal
-echo 'export TERM=xterm-256color' >> ~/.zshrc
+echo 'export TERM=xterm-256color' >>~/.zshrc
 
 # Clash
-mkdir -p ~/opt/clash; cd ~/opt/clash
+mkdir -p ~/opt/clash
+cd ~/opt/clash
 wget https://github.com/DustinWin/proxy-tools/releases/download/Clash-Premium/clashpremium-release-linux-amd64.tar.gz
 tar xvf clashpremium-release-linux-amd64.tar.gz
 mv CrashCore clash
@@ -22,7 +23,8 @@ wget -O config.yaml "https://vhbi6.no-mad-world.club/link/paFgMaiYuAPqgmOH?clash
 wget -O Country.mmdb "https://cdn.jsdelivr.net/gh/Dreamacro/maxmind-geoip@release/Country.mmdb"
 
 # dotfiles
-mkdir -p ~/github; cd ~/github
+mkdir -p ~/github
+cd ~/github
 git clone git@github.com:KURANADO2/dotfiles.git
 
 # Rust
@@ -70,6 +72,9 @@ cargo install lazyssh
 
 # btop
 sudo apt install btop
+
+# zip and unzip command
+sudo apt install zip
 
 # Lazygit
 # download the binary from https://github.com/jesseduffield/lazygit/releases
