@@ -83,3 +83,6 @@ sudo apt install zip
 
 # tree
 sudo apt install tree
+
+# docker compose
+apt-get install docker-compose-plugin
