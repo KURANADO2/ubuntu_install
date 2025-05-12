@@ -86,3 +86,6 @@ sudo apt install tree
 
 # docker compose
 apt-get install docker-compose-plugin
+
+# mysql-client(It contains mysql and mysqldump bin binary)
+apt install mysql-client
