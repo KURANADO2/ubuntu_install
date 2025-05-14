@@ -81,6 +81,10 @@ sudo apt install zip
 # tar xvf lazygit_0.49.0_Linux_x86_64.tar.gz
 # sudo mv lazygit /usr/local/bin
 
+# Lazydocker
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+mv ~/.local/bin/lazydockeer /usr/local/bin
+
 # tree
 sudo apt install tree
 
