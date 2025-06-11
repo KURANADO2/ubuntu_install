@@ -70,6 +70,9 @@ cargo install eza
 # Lazyssh
 cargo install lazyssh
 
+# sql-param
+cargo install sql-param
+
 # btop
 sudo apt install btop
 
